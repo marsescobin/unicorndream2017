@@ -1,0 +1,45 @@
+main {
+	display: grid; 
+
+}
+
+ul {
+	list-style: none;
+	display: grid;
+}
+
+ul li  {
+	align-items: end;
+}
+
+
+
+#one {
+	height: 100vh;
+	background: url(https://images.pexels.com/photos/5439/earth-space.jpg?w=940&h=650&auto=compress&cs=tinysrgb);
+	background-size: cover;
+
+}
+
+
+#one img { 
+margin: auto;
+transform: translate(0, 50%);
+height: 20%; 
+width: 20%; 
+border-radius: 50%; 
+
+}
+
+#contact {
+display: grid;
+
+}
+
+#contact p {
+	display: inline-block;
+}
+
+ #tldr p {
+	margin: 0 25%;
+}
